@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./bace.css">
+        <title>グラフを描画してみる</title>
+    </head>
+    <body>
+        <header>
+            <h1>グラフを描画してみる</h1>
+        </header>
+        <div>
+            <h2>折れ線グラフ</h2>
+            <canvas id="lineChart"></canvas>
+        </div>
+        <!-- <div>
+            <h2>棒グラフ</h2>
+            <canvas id="barChart"></canvas>
+        </div> -->
+
+        <!-- 外部のjavascriptファイルを読み込む -->
+        <!-- 読み込む順番が重要 -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        
+        <!-- Chart.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js" integrity="sha512-lUsN5TEogpe12qeV8NF4cxlJJatTZ12jnx9WXkFXOy7yFbuHwYRTjmctvwbRIuZPhv+lpvy7Cm9o8T9e+9pTrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Chartを使ってみる -->
+        <script src="./js/sample.js"></script>
+        
+    </body>
+</html>
