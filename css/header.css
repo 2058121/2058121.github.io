@@ -1,0 +1,187 @@
+/* 参照ページ */
+/* https://copypet.jp/671/ *//* メニュー */
+/* https://uxmilk.jp/52837 *//* フォント */
+/* https://saruwakakun.com/html-css/reference/image-text *//* 画像の上に文字 */
+.font {
+	font-family: 'Kaushan Script', cursive;
+}
+.head-top {
+	position: relative;
+	margin: -7px;
+}
+.head-top p {
+	position: absolute;/*絶対配置*/
+	color: white;/*文字は白に*/
+	top: -30px;
+	left: 50px;
+	font-size: 60px;
+
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_navi {
+	position: relative;
+	overflow: hidden;
+	width: 360px;
+	height:200px;
+}
+.cp_navi #cp_sidenav a {
+	/* ホームとかの色ついた部分の大きさや配置 */
+	font-size: 20px;
+	position: absolute;
+	left: -180px;/* -90px */
+	width: 216px;/* 110px */
+	height: 54px;
+	padding: 12px 20px;
+	transition: 0.3s;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 0 5px 5px 0;
+}
+.cp_navi #cp_sidenav a:hover {
+	/* ホームとかの出てくるやつの長さ */
+	left: -10px;
+	width: 90%;
+}
+.cp_navi #home {
+	top: 20px;
+	background-color: #d87300;
+}
+.cp_navi #news {
+	top: 80px;
+	background-color: #8a5d29;
+}
+.cp_navi #contact {
+	top: 140px;
+	background-color: #3f270c;
+}
+.FrontBox {
+	overflow: hidden;
+	margin-right: -7px;
+	margin-left: -7px;
+	margin-bottom: -7px;
+}
+#menu {
+	/* メニュー欄の背景等 */
+	float: left;
+    width: 15%;
+    height: 200px;
+    /* background-color: #f8ff8f; */
+}
+#TextH {
+	/* 本文の部分の背景等 */
+	float: left;
+    width: 85%;
+    height: 800px;
+	background-color: #ddd5bd;
+	color: #d87300;
+	/* font-family: 'Kaushan Script', cursive; */
+}
+#TextS1 {
+	/* 本文の部分の背景等 */
+	float: left;
+    width: 85%;
+    height: 1200px;
+	background-color: #ddd5bd;
+	color: #8a5d29;
+	/* #8f5d00 */
+	/* font-family: 'Kaushan Script', cursive; */
+}
+#TextS2 {
+	/* 本文の部分の背景等 */
+	float: left;
+    width: 85%;
+    height: 700px;
+	background-color: #ddd5bd;
+	color: #3f270c;
+	/* font-family: 'Kaushan Script', cursive; */
+}
+.kaigyo {
+	padding-left: 15px;
+}
+#line {
+	text-decoration: underline;
+}
+.kaigyo2 {
+	padding-left: 35px;
+}
+.gyokan2 {
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.wrap {
+	text-align: center;
+}
+#start_button{
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 36px;
+	background: linear-gradient(135deg,#d87300,#ffcf98);
+	color: #ffffff;
+	border-radius: 10px;
+	border-color: #d87300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.textback{
+	margin-right: 35px;
+	background-color: #dddcd9;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 35px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.marg0 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 35px;
+}
+#scoredis{
+	margin-left: 35px;
+}
+#count{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#word{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.padd_right{
+	padding-right: 15px;
+	margin-right: 0px;
+}
+.nani{
+	padding-left: 50px;
+}
+#footer{
+	position: absolute;
+	bottom: 3px;
+	top: 800px;
+	width: 100%;
+	text-align: center;
+}
+#footerH{
+	position: absolute;
+	bottom: 3px;
+	top: 900px;
+	width: 100%;
+	text-align: center;
+}
+#footerS1{
+	position: absolute;
+	bottom: 3px;
+	top: 1300px;
+	width: 100%;
+	text-align: center;
+}
+#img_game{
+	width: 1152px;
+	padding-right: 350px;
+	padding-left: 350px;
+}
